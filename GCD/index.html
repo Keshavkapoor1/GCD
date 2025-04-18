@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        
+        <div class="heading">
+            <h1>MARKS CALCULATOR</h1>
+            </div>
+            
+
+<form>
+    <div class="subject">
+<label for="input1" >ENGLISH:</label>
+<input type="number" placeholder="Enter Marks "id="input1" class="input">
+</div>
+
+<div class="subject">
+    <label for="input2">HINDI:</label>
+    <input type="number" placeholder="Enter Marks"id="input2" class="input">
+    </div>
+
+    <div class="subject">
+        <label for="input3">MATH:</label>
+        <input type="number" placeholder="Enter Marks" id="input3" class="input">
+        </div>
+
+        <div class="subject">
+            <label for="input4">SCIENCE:</label>
+            <input type="number" placeholder="Enter Marks"id="input4" class="input">
+            </div>
+
+            <div class="subject">
+                <label for="input5">S.SCIENCE:</label>
+                <input type="number" placeholder="Enter Marks"id="input5" class="input">
+                </div>
+
+                <button type="button" id="button">Calculate</button>
+</form>
+
+<div class="table">
+
+    <table style="border: 2px solid black;">
+        <tr>
+            <td>Total Marks</td>
+            <td>500</td>
+        </tr>
+        <tr>
+           <td> Obtained Marks</td>
+           <td id="Obtainedmarks"></td>
+        </tr>
+        <tr>
+            <td>Precentage</td>
+            <td id="percentage"></td>
+        </tr>
+        
+        <tr>
+            <td>Grade</td>
+            <td id="grade"></td>
+        </tr>
+        <tr>
+            <td>Remarks</td>
+            <td id="remarks"></td>
+        </tr>
+    </table>
+</div>
+
+    </div>
+    <script src="style.js"></script>
+</body>
+</html>
